@@ -14,6 +14,7 @@ namespace _2048game
     {
         Button[,] btns = new Button[4, 4];
         string[,] btnsc = new string[4, 4];
+        int score;
         public Form1()
         {
             InitializeComponent();
@@ -100,6 +101,7 @@ namespace _2048game
                     {
                         btns[i, j].Text = (Int32.Parse(btns[i, j].Text) * 2).ToString();
                         btns[i + 1, j].Text = "";
+                        score += 100;
                     }
                 }
             }
@@ -138,6 +140,7 @@ namespace _2048game
                     {
                         btns[i, j].Text = (Int32.Parse(btns[i, j].Text) * 2).ToString();
                         btns[i - 1, j].Text = "";
+                        score += 100;
                     }
                 }
             }
@@ -176,6 +179,7 @@ namespace _2048game
                     {
                         btns[i,j].Text= (Int32.Parse(btns[i, j].Text) * 2).ToString();
                         btns[i, j + 1].Text = "";
+                        score += 100;
                     }
                 }
             }
@@ -214,6 +218,7 @@ namespace _2048game
                     {
                         btns[i, j].Text = (Int32.Parse(btns[i, j].Text)*2).ToString();
                         btns[i, j - 1].Text = "";
+                        score += 100;
                     }
                 }
             }
@@ -243,13 +248,36 @@ namespace _2048game
                     btnsc[i, j] = btns[i, j].Text;
                 }
             }
-        }
+        } 
 
-        private void timer1_Tick(object sender, EventArgs e)
+        void ChangeColor()
         {
-            
+            foreach (Button b in btns)
+            {
+                if (b.Text == "2")
+                    b.ForeColor = Color.Green;
+                else if (b.Text == "4")
+                    b.ForeColor = Color.GreenYellow;
+                else if (b.Text == "8")
+                    b.ForeColor = Color.Honeydew;
+                else if (b.Text == "16")
+                    b.ForeColor = Color.HotPink;
+                else if (b.Text == "32")
+                    b.ForeColor = Color.IndianRed;
+                else if (b.Text == "64")
+                    b.ForeColor = Color.Indigo;
+                else if (b.Text == "128")
+                    b.ForeColor = Color.Ivory;
+                else if (b.Text == "256")
+                    b.ForeColor = Color.Khaki;
+                else if (b.Text == "512")
+                    b.ForeColor = Color.Lavender;
+                else if (b.Text == "1024")
+                    b.ForeColor = Color.LavenderBlush;
+                else if (b.Text == "2048")
+                    MessageBox.Show("Congratulations!"); 
+            }
         }
-
         private void Form1_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (e.KeyChar == 100)
@@ -259,6 +287,8 @@ namespace _2048game
                 rightcal();
                 if(cangen())
                   GenerateNewNum();
+                ChangeColor();
+                label1.Text = score.ToString();
             }
             else if (e.KeyChar == 97)
             {
@@ -267,6 +297,8 @@ namespace _2048game
                 leftcal();
                 if (cangen())
                     GenerateNewNum();
+                ChangeColor();
+                label1.Text = score.ToString();
             }
             else if (e.KeyChar == 119)
             {
@@ -275,6 +307,8 @@ namespace _2048game
                 upcal();
                 if (cangen())
                     GenerateNewNum();
+                ChangeColor();
+                label1.Text = score.ToString();
             }
             else if (e.KeyChar == 115)
             {
@@ -283,6 +317,8 @@ namespace _2048game
                 downcal();
                 if (cangen())
                     GenerateNewNum();
+                ChangeColor();
+                label1.Text = score.ToString();
             }
         }
     }
