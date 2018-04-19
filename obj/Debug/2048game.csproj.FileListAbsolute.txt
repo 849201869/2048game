@@ -1,0 +1,30 @@
+G:\VSexp\2048game\2048game\bin\Debug\2048game.exe.config
+G:\VSexp\2048game\2048game\bin\Debug\2048game.exe
+G:\VSexp\2048game\2048game\bin\Debug\2048game.pdb
+G:\VSexp\2048game\2048game\obj\Debug\2048game.csprojResolveAssemblyReference.cache
+G:\VSexp\2048game\2048game\obj\Debug\_2048game.Properties.Resources.resources
+G:\VSexp\2048game\2048game\obj\Debug\2048game.csproj.GenerateResource.cache
+G:\VSexp\2048game\2048game\obj\Debug\2048game.csproj.CoreCompileInputs.cache
+G:\VSexp\2048game\2048game\obj\Debug\2048game.exe
+G:\VSexp\2048game\2048game\obj\Debug\2048game.pdb
+G:\VSexp\2048game\2048game\obj\Debug\_2048game.Form1.resources
+H:\VSexp\2048game\2048game\bin\Debug\2048game.exe.config
+H:\VSexp\2048game\2048game\bin\Debug\2048game.exe
+H:\VSexp\2048game\2048game\bin\Debug\2048game.pdb
+H:\VSexp\2048game\2048game\obj\Debug\2048game.csprojResolveAssemblyReference.cache
+H:\VSexp\2048game\2048game\obj\Debug\_2048game.Form1.resources
+H:\VSexp\2048game\2048game\obj\Debug\_2048game.Properties.Resources.resources
+H:\VSexp\2048game\2048game\obj\Debug\2048game.csproj.GenerateResource.Cache
+H:\VSexp\2048game\2048game\obj\Debug\2048game.csproj.CoreCompileInputs.cache
+H:\VSexp\2048game\2048game\obj\Debug\2048game.exe
+H:\VSexp\2048game\2048game\obj\Debug\2048game.pdb
+D:\visual stodio exp\VSexp\2048game\2048game\bin\Debug\2048game.exe.config
+D:\visual stodio exp\VSexp\2048game\2048game\bin\Debug\2048game.exe
+D:\visual stodio exp\VSexp\2048game\2048game\bin\Debug\2048game.pdb
+D:\visual stodio exp\VSexp\2048game\2048game\obj\Debug\2048game.csprojResolveAssemblyReference.cache
+D:\visual stodio exp\VSexp\2048game\2048game\obj\Debug\_2048game.Form1.resources
+D:\visual stodio exp\VSexp\2048game\2048game\obj\Debug\_2048game.Properties.Resources.resources
+D:\visual stodio exp\VSexp\2048game\2048game\obj\Debug\2048game.csproj.GenerateResource.Cache
+D:\visual stodio exp\VSexp\2048game\2048game\obj\Debug\2048game.csproj.CoreCompileInputs.cache
+D:\visual stodio exp\VSexp\2048game\2048game\obj\Debug\2048game.exe
+D:\visual stodio exp\VSexp\2048game\2048game\obj\Debug\2048game.pdb
